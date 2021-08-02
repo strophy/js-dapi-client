@@ -1,4 +1,4 @@
-const GrpcErrorCodes = require('@dashevo/grpc-common/lib/server/error/GrpcErrorCodes');
+const GrpcErrorCodes = require('strophy-grpc-common/lib/server/error/GrpcErrorCodes');
 
 const GrpcTransport = require('../../../lib/transport/GrpcTransport');
 const DAPIAddress = require('../../../lib/dapiAddressProvider/DAPIAddress');

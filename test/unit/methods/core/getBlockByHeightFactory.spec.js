@@ -4,9 +4,9 @@ const {
     GetBlockResponse,
     CorePromiseClient,
   },
-} = require('@dashevo/dapi-grpc');
+} = require('strophy-dapi-grpc');
 
-const grpcErrorCodes = require('@dashevo/grpc-common/lib/server/error/GrpcErrorCodes');
+const grpcErrorCodes = require('strophy-grpc-common/lib/server/error/GrpcErrorCodes');
 
 const getBlockByHeightFactory = require('../../../../lib/methods/core/getBlockByHeightFactory');
 

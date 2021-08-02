@@ -6,10 +6,10 @@ const {
     ResponseMetadata,
     Proof,
   },
-} = require('@dashevo/dapi-grpc');
+} = require('strophy-dapi-grpc');
 
 const getDataContractFixture = require('@dashevo/dpp/lib/test/fixtures/getDataContractFixture');
-const grpcErrorCodes = require('@dashevo/grpc-common/lib/server/error/GrpcErrorCodes');
+const grpcErrorCodes = require('strophy-grpc-common/lib/server/error/GrpcErrorCodes');
 
 const getDataContractFactory = require('../../../../../lib/methods/platform/getDataContract/getDataContractFactory');
 const getMetadataFixture = require('../../../../../lib/test/fixtures/getMetadataFixture');
